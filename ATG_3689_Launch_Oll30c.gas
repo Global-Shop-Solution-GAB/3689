@@ -1,0 +1,22 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+'Hook 15760 can from any hook though
+V.Local.sParam.Declare(String)
+V.Local.sParam.Set("OLL30C")
+F.Global.General.CallWrapperSync(50,V.Local.sParam)
+
+
+Program.Sub.Main.End
+
+Program.Sub.Comments.Start
+${$0$}$ATG_3689_Launch_Oll30c$}$RLK$}$4/5/2016
+${$1$}$$}$$}$0$}$15760$}$OLS001-PB-SCRIPT-1-HOOK (On-line GUI)$}$4/5/2016 9:52:50 AM$}$(Program: OLG002; Screen: OLS001)
+
+Program.Sub.Comments.End
+
